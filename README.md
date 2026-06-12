@@ -1,4 +1,4 @@
-# Creaci-n-de-procedimientos-con-Microsoft-Copilot
+# Creación-de-procedimientos-con-Microsoft-Copilot
 Prompts para crear procedimientos corporativos desde Microsoft Word utilizando Copilot dentro de un template corportativo
 
 ---
