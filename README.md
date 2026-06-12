@@ -20,21 +20,21 @@ PASO 1 DE 4: Prompt de Inicio
 * No necesitas repetirlo en secciones posteriores. 
 
 ```text
-[cite_start]Eres un asistente de redacción técnica operativa para la empresa. [cite: 8]
+Eres un asistente de redacción técnica operativa para la empresa.
 
-[cite_start]Tu misión es ayudarme a completar las secciones del documento que tengo abierto en Word, siguiendo el template corporativo oficial de la empresa. [cite: 8]
+Tu misión es ayudarme a completar las secciones del documento que tengo abierto en Word, siguiendo el template corporativo oficial de la empresa.
 
 REGLAS QUE SIEMPRE DEBES RESPETAR:
-- [cite_start]Respeta el orden y nombre exacto de las 9 secciones del template. [cite: 8]
-- Usa español formal y lenguaje técnico-operativo. [cite_start]Sin ambigüedades. [cite: 8]
-- [cite_start]En la sección DESARROLLO: usa siempre verbos en infinitivo (verificar, registrar, notificar, coordinar, asegurar). [cite: 8]
-- [cite_start]En RESPONSABILIDADES: menciona solo cargos o roles, nunca nombres de personas. [cite: 8]
-- [cite_start]Si la información que te doy es insuficiente para completar una sección, responde con: ⚠️ INFORMACIÓN FALTANTE — necesito que me indiques: [lo que falta]. [cite: 8]
-- No inventes códigos de documentos, versiones ni fechas. [cite_start]Usa el marcador [COMPLETAR] para esos campos. [cite: 8]
-- [cite_start]La sección REGISTROS solo debe listar evidencias reales que el proceso genera (formatos, reportes, correos, entradas en sistemas). [cite: 8]
-- [cite_start]El DESARROLLO debe tener pasos numerados y concretos, no párrafos narrativos. [cite: 8]
+- Respeta el orden y nombre exacto de las 9 secciones del template.
+- Usa español formal y lenguaje técnico-operativo. [cite_start]Sin ambigüedades.
+- En la sección DESARROLLO: usa siempre verbos en infinitivo (verificar, registrar, notificar, coordinar, asegurar).
+- En RESPONSABILIDADES: menciona solo cargos o roles, nunca nombres de personas.
+- Si la información que te doy es insuficiente para completar una sección, responde con: ⚠️ INFORMACIÓN FALTANTE — necesito que me indiques: [lo que falta].
+- No inventes códigos de documentos, versiones ni fechas. [cite_start]Usa el marcador [COMPLETAR] para esos campos.
+- La sección REGISTROS solo debe listar evidencias reales que el proceso genera (formatos, reportes, correos, entradas en sistemas).
+- El DESARROLLO debe tener pasos numerados y concretos, no párrafos narrativos.
 
-[cite_start]Confirma que entendiste respondiendo: "Listo. Indícame el tipo de documento y el proceso a documentar." [cite: 8]
+Confirma que entendiste respondiendo: "Listo. Indícame el tipo de documento y el proceso a documentar."
 
 ```
 
@@ -48,22 +48,22 @@ PASO 2 DE 4: Prompt de Generación Completa
 * Llena los corchetes con tu información — puedes describir el proceso de forma informal. 
 
 ```text
-[cite_start]Elabora un [TIPO: procedimiento / plan / instructivo] titulado "[NOMBRE DEL DOCUMENTO]" para la empresa. [cite: 14]
+Elabora un [TIPO: procedimiento / plan / instructivo] titulado "[NOMBRE DEL DOCUMENTO]" para la empresa.
 
 DESCRIPCIÓN DEL PROCESO:
-[Explica qué se hace, cuándo ocurre, qué lo activa y cuál es el resultado esperado. [cite_start]Puedes ser informal.] [cite: 14]
+[Explica qué se hace, cuándo ocurre, qué lo activa y cuál es el resultado esperado. Puedes ser informal.]
 
 ROLES QUE PARTICIPAN:
-[cite_start][Lista los cargos involucrados.] Ejemplo: Supervisor, coordinador o jefe de área. [cite: 14]
+[Lista los cargos involucrados.] Ejemplo: Supervisor, coordinador o jefe de área.
 
 CONDICIONES ESPECIALES O DE SEGURIDAD:
-[Restricciones, alertas operativas o situaciones críticas. [cite_start]Si no hay, escribe: ninguna.] [cite: 14]
+[Restricciones, alertas operativas o situaciones críticas. Si no hay, escribe: ninguna.]
 
 DOCUMENTOS RELACIONADOS (si los conoces):
-[cite_start][Códigos o nombres de otros procedimientos a referenciar.] [cite: 14]
+[Códigos o nombres de otros procedimientos a referenciar.]
 
-[cite_start]Genera el documento completo con las 9 secciones del template corporativo. [cite: 14]
-[cite_start]Deja con [COMPLETAR] los campos del sistema de gestión documental (código, versión, fechas). [cite: 14]
+Genera el documento completo con las 9 secciones del template corporativo.
+Deja con [COMPLETAR] los campos del sistema de gestión documental (código, versión, fechas).
 
 ```
 **Consejo:** Mientras más detalle pongas en 'DESCRIPCIÓN DEL PROCESO', mejor será el resultado. No hace falta que sea formal — Copilot se encarga de la redacción. 
@@ -77,74 +77,73 @@ PASO 3 DE 4: Prompts por Sección
 1. OBJETIVO 
 
 ```text
-[cite_start]Reescribe solo la sección OBJETIVO de este procedimiento corporativo. [cite: 20]
-[cite_start]Debe responder en máximo 2 oraciones: [cite: 20]
-  [cite_start]· ¿Qué se busca lograr? [cite: 20]
-  [cite_start]· ¿Qué riesgo operativo o problema resuelve? [cite: 20]
-[cite_start]Comienza con uno de estos verbos: Establecer, Definir o Describir. [cite: 20]
-
+Reescribe solo la sección OBJETIVO de este procedimiento corporativo.
+Debe responder en máximo 2 oraciones:
+  · ¿Qué se busca lograr?
+  · ¿Qué riesgo operativo o problema resuelve?
+Comienza con uno de estos verbos: Establecer, Definir o Describir.
 ```
 
 2. ALCANCE 
 
 ```text
-Reescribe la sección ALCANCE. [cite_start]Debe indicar claramente: [cite: 22]
-  [cite_start]· A qué área o proceso aplica. [cite: 22]
-  [cite_start]· Qué roles o equipos están dentro del alcance. [cite: 22]
-  [cite_start]· Si hay algo que explícitamente NO cubre este documento, indícalo. [cite: 22]
-[cite_start]Máximo 3 oraciones. [cite: 22]
+Reescribe la sección ALCANCE. [cite_start]Debe indicar claramente:
+  · A qué área o proceso aplica.
+  · Qué roles o equipos están dentro del alcance.
+  · Si hay algo que explícitamente NO cubre este documento, indícalo.
+Máximo 3 oraciones.
 
 ```
 
 3. DEFINICIONES 
 
 ```text
-[cite_start]Lee el borrador del documento y extrae todos los términos técnicos, siglas y abreviaciones que usa. [cite: 24]
-[cite_start]Para cada uno, redacta una definición operativa breve (1-2 líneas) en el contexto operativo de la empresa. [cite: 24]
-[cite_start]Ordénalos alfabéticamente. [cite: 24]
+Lee el borrador del documento y extrae todos los términos técnicos, siglas y abreviaciones que usa.
+Para cada uno, redacta una definición operativa breve (1-2 líneas) en el contexto operativo de la empresa.
+Ordénalos alfabéticamente.
 
 ```
 
 4. DOCUMENTOS A CONSULTAR 
 
 ```text
-[cite_start]Con base en el contenido del documento, sugiere qué tipos de documentos la empresa debería referenciar esta sección (normas, reglamentos, otros procedimientos relacionados). [cite: 26]
-[cite_start]Presenta la lista con el formato: [cite: 26]
-  [cite_start][Código o tipo] — [descripción breve] [cite: 26]
-[cite_start]Deja el código real con [COMPLETAR] si no lo conozco. [cite: 26]
+Con base en el contenido del documento, sugiere qué tipos de documentos la empresa debería referenciar esta sección (normas, reglamentos, otros procedimientos relacionados).
+Presenta la lista con el formato:
+  [Código o tipo] — [descripción breve]
+Deja el código real con [COMPLETAR] si no lo conozco.
 
 ```
 
 5. RESPONSABILIDADES 
 
 ```text
-[cite_start]Reescribe la sección RESPONSABILIDADES. [cite: 28]
-[cite_start]Usa el formato: "[Cargo] es responsable de [acción específica y verificable]." [cite: 28]
-  [cite_start]· Solo cargos, nunca nombres de personas. [cite: 28]
-  [cite_start]· Cada responsabilidad debe poder auditarse (que alguien pueda verificar si se cumplió o no). [cite: 28]
+Reescribe la sección RESPONSABILIDADES.
+Usa el formato: "[Cargo] es responsable de [acción específica y verificable]."
+  · Solo cargos, nunca nombres de personas.
+  · Cada responsabilidad debe poder auditarse (que alguien pueda verificar si se cumplió o no).
 
 ```
 
 6. DESARROLLO 
 
 ```text
-[cite_start]Reescribe la sección DESARROLLO con estas reglas: [cite: 30]
-  [cite_start]· Pasos numerados y concretos. [cite: 30]
-  [cite_start]· Cada paso comienza con verbo en infinitivo. [cite: 30]
-  [cite_start]· Si hay una decisión o condición, usa el formato: "Si [condición] → [acción a tomar]." [cite: 30]
-  [cite_start]· Agrupa los pasos en subsecciones 6.1, 6.2, etc. según las etapas lógicas del proceso. [cite: 30]
-  [cite_start]· No uses párrafos narrativos. [cite: 30]
+Reescribe la sección DESARROLLO con estas reglas:
+  · Pasos numerados y concretos.
+  · Cada paso comienza con verbo en infinitivo.
+  · Si hay una decisión o condición, usa el formato: "Si [condición] → [acción a tomar]."
+  · Agrupa los pasos en subsecciones 6.1, 6.2, etc. según las etapas lógicas del proceso.
+  · No uses párrafos narrativos.
 
 ```
 
 7. REGISTROS 
 
 ```text
-[cite_start]Reescribe la sección REGISTROS. [cite: 32]
-[cite_start]Lista solo las evidencias concretas que este proceso genera: formatos físicos, registros en sistema, reportes, correos, entradas en bitácora, etc. [cite: 32]
-[cite_start]Formato: [cite: 32]
-  [cite_start][Nombre del registro] — [quién lo genera] — [dónde se archiva] [cite: 32]
-[cite_start]Si no tienes certeza de dónde se archiva, escribe [COMPLETAR]. [cite: 32]
+Reescribe la sección REGISTROS.
+Lista solo las evidencias concretas que este proceso genera: formatos físicos, registros en sistema, reportes, correos, entradas en bitácora, etc.
+Formato:
+  [Nombre del registro] — [quién lo genera] — [dónde se archiva]
+Si no tienes certeza de dónde se archiva, escribe [COMPLETAR].
 
 ```
 
@@ -157,20 +156,20 @@ PASO 4 DE 4: Prompt de Autoverificación
 * Copilot actuará como auditor interno y te dirá qué corregir. 
 
 ```text
-[cite_start]Actúa como revisor interno de documentos técnicos corporativos. [cite: 37]
-[cite_start]Analiza el documento que tengo en pantalla y verifica punto por punto: [cite: 37]
+Actúa como revisor interno de documentos técnicos corporativos.
+Analiza el documento que tengo en pantalla y verifica punto por punto:
 
-1. [cite_start]¿Las 9 secciones del template corporativo están presentes y en orden? [cite: 37]
-2. [cite_start]¿El OBJETIVO responde claramente qué se logra y por qué importa? [cite: 37]
-3. [cite_start]¿El ALCANCE HIPAA especifica a quiénes aplica y qué excluye? [cite: 37]
-4. [cite_start]¿Las DEFINICIONES cubren todos los términos técnicos del documento? [cite: 37]
-5. [cite_start]¿Las RESPONSABILIDADES usan cargos, no nombres de personas? [cite: 37]
-6. [cite_start]¿El DESARROLLO tiene pasos numerados con verbos en infinitivo? [cite: 37]
-7. [cite_start]¿Los REGISTROS son evidencias reales y verificables? [cite: 37]
-8. [cite_start]¿Quedan campos [COMPLETAR] que debo resolver antes de enviar al Revisor? [cite: 37]
+1. ¿Las 9 secciones del template corporativo están presentes y en orden?
+2. ¿El OBJETIVO responde claramente qué se logra y por qué importa? 
+3. ¿El ALCANCE HIPAA especifica a quiénes aplica y qué excluye?
+4. ¿Las DEFINICIONES cubren todos los términos técnicos del documento?
+5. ¿Las RESPONSABILIDADES usan cargos, no nombres de personas?
+6. ¿El DESARROLLO tiene pasos numerados con verbos en infinitivo?
+7. ¿Los REGISTROS son evidencias reales y verificables?
+8. ¿Quedan campos [COMPLETAR] que debo resolver antes de enviar al Revisor?
 
-[cite_start]Para cada punto responde: ✅ Correcto / ⚠️ Revisar / ❌ Falta. [cite: 37]
-[cite_start]Al final, lista solo las correcciones pendientes ordenadas de mayor a menor urgencia. [cite: 37]
+Para cada punto responde: ✅ Correcto / ⚠️ Revisar / ❌ Falta.
+]Al final, lista solo las correcciones pendientes ordenadas de mayor a menor urgencia.
 
 ```
 
