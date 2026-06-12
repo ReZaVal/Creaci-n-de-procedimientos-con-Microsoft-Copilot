@@ -184,20 +184,8 @@ REFERENCIA RÁPIDA
 | Situación | Prompt a usar |
 | --- | --- |
 | Primera vez que abres el template | Prompt de Inicio (Paso 1) 
-
- |
 | Quieres generar todo el documento de una vez | Prompt de Generación (Paso 2) 
-
- |
 | Quieres trabajar sección por sección | Prompts por Sección (Paso 3) 
-
- |
 | Terminaste de redactar — antes de enviar al Revisor | Prompt de Autoverificación (Paso 4) 
-
- |
 | Copilot devolvió algo incorrecto | Repite el prompt con más detalle en los corchetes 
-
- |
 | Una sección quedó incompleta (⚠️) | Agrega la información que Copilot indicó como faltante y repite ese prompt de sección 
-
- |
